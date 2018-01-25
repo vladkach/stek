@@ -10,7 +10,16 @@ a:hover,
 a:active{
     text-decoration: none;
 }
-
+.snow{
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/snow.png);
+  display: inline-block;
+  vertical-align: middle;
+}
+.snow-item:hover .snow{
+  background: url(../img/snow-hover.png);
+}
 .navbar-default{
 	background-color: #628981;
 }
@@ -265,7 +274,8 @@ h2{
     color:#fff;
 }
 .dropdown li a:hover,
-.dropup li a:hover{
+.dropup li a:hover,
+{
     color:#628981;
 }
 .dropdown li,
@@ -1263,3 +1273,5 @@ Placeholder Sections
     margin-top:-10px;
 }
 /*MAIN MENU*/
+
+
