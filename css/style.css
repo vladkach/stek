@@ -20,6 +20,16 @@ a:active{
 .snow-item:hover .snow{
   background: url(../img/snow-hover.png);
 }
+.valentine{
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/valentine.png);
+  display: inline-block;
+  vertical-align: middle;
+}
+.valentine-item:hover .valentine{
+  background: url(../img/valentine-hover.png);
+}
 .navbar-default{
 	background-color: #628981;
 }
